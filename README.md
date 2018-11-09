@@ -19,5 +19,5 @@ python3 object_detection/predict.py -m './object_detection/inference_graph/' -i 
 
 ### Requirements
 tensorflow.__version__==1.9 <br>
-cuda.__version__==9.0
-cuDNN.__version__==7.0
+cuda.__version__==9.0 <br>
+cuDNN.__version__==7.0 <br>
