@@ -1,0 +1,46 @@
+# OS generated files #
+######################
+.DS_Store
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Model files #
+###################
+training/
+inference_graph/
+test_ckpt/
+faster_rcnn_inception_v2_coco_2018_01_28
+
+# Data #
+##################
+test_data/
+test_images/
+test/
+results/
+train.record
+images/
+images_meter/
+
+# Training #
+#################
+
