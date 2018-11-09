@@ -1,3 +1,6 @@
+
+### Convert xml to csv
+python3 object_detection/xml_to_csv.py
 ### Convert input data to TFR
 python3 object_detection/generate_tfrecord.py --csv_input=images_meter/train_labels.csv --image_dir=images_meter/train --output_path=train.record
 
@@ -15,6 +18,6 @@ python3 object_detection/export_inference_graph.py --input_type image_tensor --p
 python3 object_detection/predict.py -m './object_detection/inference_graph/' -i './object_detection/test/meter3.jpg' -l './object_detection/labelmap.pbtxt' -o './object_detection/results'
 
 ### Requirements
-tensorflow.__version__==1.9
+tensorflow.__version__==1.9 <br>
 cuda.__version__==9.0
 cuDNN.__version__==7.0
