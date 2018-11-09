@@ -14,3 +14,7 @@ python3 object_detection/export_inference_graph.py --input_type image_tensor --p
 ### Predict
 python3 object_detection/predict.py -m './object_detection/inference_graph/' -i './object_detection/test/meter3.jpg' -l './object_detection/labelmap.pbtxt' -o './object_detection/results'
 
+### Requirements
+tensorflow.__version__==1.9
+cuda.__version__==9.0
+cuDNN.__version__==7.0
