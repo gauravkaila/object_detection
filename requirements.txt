@@ -16,7 +16,7 @@ grpcio==1.16.0
 h5py==2.8.0
 html5lib==0.9999999
 idna==2.0
-Jinja2==2.8
+Jinja2==2.11.3
 jsonpatch==1.10
 jsonpointer==1.9
 Keras-Applications==1.0.6
