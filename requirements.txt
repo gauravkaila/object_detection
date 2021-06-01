@@ -60,7 +60,7 @@ tensorflow-tensorboard==0.4.0
 termcolor==1.1.0
 ufw==0.35
 unattended-upgrades==0.1
-urllib3==1.13.1
+urllib3==1.26.5
 WALinuxAgent==2.2.20
 Werkzeug==0.14.1
 xkit==0.0.0
