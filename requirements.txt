@@ -27,7 +27,7 @@ lxml==3.5.0
 Markdown==3.0.1
 MarkupSafe==0.23
 matplotlib==3.0.1
-numpy==1.15.4
+numpy==1.22.0
 oauthlib==1.0.3
 opencv-python==3.4.3.18
 pandas==0.23.4
